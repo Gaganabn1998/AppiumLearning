@@ -15,8 +15,8 @@ public class AppiumFirstTest {
         }
     }
 
-    public static void openCalculatorApp() throws MalformedURLException {
-      
+    public static void openCalculatorApp(){
+
         UiAutomator2Options options = new UiAutomator2Options();
         options.setPlatformName("Android");
         options.setDeviceName("realme 7");
@@ -39,7 +39,6 @@ public class AppiumFirstTest {
             Process pc = pb.start();
             pc.waitFor();
             System.out.println("Done");
-            // Wait for 3 seconds to allow the app to launch
             Thread.sleep(3000);
             System.out.println("Calculator app launched!");
         } catch (Exception e) {
