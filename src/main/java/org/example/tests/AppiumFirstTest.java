@@ -1,3 +1,5 @@
+package org.example.tests;
+
 import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.android.options.UiAutomator2Options;
 import java.net.MalformedURLException;
@@ -23,8 +25,6 @@ public class AppiumFirstTest {
         options.setUdid("E6ORR4YLWKG6GI59");
         options.setAppPackage("com.coloros.calculator");
         options.setAppActivity("com.android.calculator2.Calculator");
-
-
         options.setAutoGrantPermissions(true);
 
         options.setAutomationName("UiAutomator2");
@@ -40,7 +40,7 @@ public class AppiumFirstTest {
             pc.waitFor();
             System.out.println("Done");
             Thread.sleep(3000);
-            System.out.println("Calculator app launched!");
+            System.out.println("chrome launched!");
         } catch (Exception e) {
             System.out.println("Failed to launch the app. Error: " + e.getMessage());
             e.printStackTrace();

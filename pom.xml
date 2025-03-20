@@ -19,11 +19,24 @@
             <artifactId>selenium-java</artifactId>
             <version>4.1.2</version>
         </dependency>
-
+        <dependency>
+            <groupId>org.testng</groupId>
+            <artifactId>testng</artifactId>
+            <version>7.5</version>
+        </dependency>
         <dependency>
             <groupId>io.appium</groupId>
             <artifactId>java-client</artifactId>
             <version>9.4.0</version>
         </dependency>
+
+            <dependency>
+                <groupId>org.slf4j</groupId>
+                <artifactId>slf4j-simple</artifactId>
+                <version>2.0.11</version>
+            </dependency>
+
+
     </dependencies>
+
 </project>
