@@ -1,9 +1,9 @@
-package org.example.tests;
+package AppiumPractice.tests;
 
 import io.appium.java_client.AppiumBy;
 import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.android.options.UiAutomator2Options;
-import org.example.BaseClass.Gestures;
+import AppiumPractice.BaseClass.Gestures;
 import org.openqa.selenium.*;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;

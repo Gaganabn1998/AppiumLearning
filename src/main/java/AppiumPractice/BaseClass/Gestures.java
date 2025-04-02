@@ -1,4 +1,4 @@
-package org.example.BaseClass;
+package AppiumPractice.BaseClass;
 
 import com.google.common.collect.ImmutableMap;
 import io.appium.java_client.AppiumBy;
